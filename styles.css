@@ -1,0 +1,80 @@
+/* UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Chivo', sans-serif;
+}
+
+/* NAVBAR */
+@media (min-width: 300px) {
+    .navbar-brand {
+        width: 60px;
+        height: 60px;
+    }
+    .jumbotron {
+        height: 100vh;
+    }
+}
+.navbar {
+    background-color: #FAF7EF;
+    color: #384472;
+}
+.nav-link {
+    color: #384472;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 5px;
+}
+.nav-link:hover {
+    color: #384472;
+}
+.nav-item:hover {
+    border-bottom: 3px solid #384472;
+	margin-bottom: 2px;
+}
+
+/* LANDING PAGE */
+#home {
+    height: 100vh;
+}
+.intro {
+	font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+	color: #21274A;
+    background-color: transparent;
+}
+.name {
+	font-family: 'Yrsa', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 5px solid #384472;
+    padding-bottom: 10px;
+}
+.landing-btn {
+    background-color: transparent;
+	border: 3px solid #384472;
+	color: #384472;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+}
+.landing-btn:hover {
+    border: 3px groove #384472;
+	background-color: #384472;
+	color: #FAF7EF;	
+	font-style: italic;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+}
+
